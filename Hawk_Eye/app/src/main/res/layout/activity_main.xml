@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+  android:background="@drawable/f15"
+    >
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:src="@drawable/location_map_pin_blue3"-->
+        <!--android:layout_marginTop="19dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <Button
+        android:id="@+id/track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6868"
+        android:background="#000000"
+        android:text=" Locate Friends "
+        android:textColor="#f0f0f0"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        android:layout_marginRight="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/track"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text=""
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="52dp"
+        android:textColor="#f0f0f0"
+
+
+        android:layout_marginTop="44dp"
+        android:text="PeCon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
